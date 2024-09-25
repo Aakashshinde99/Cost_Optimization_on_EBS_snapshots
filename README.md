@@ -1,6 +1,6 @@
-# AWS Cloud Cost Optimization - Identifying Stale Resources
+# AWS Cloud Cost Optimization - Identifying unused Resources
 
-## Identifying Stale EBS Snapshots
+## Identifying unused EBS Snapshots
 
 In this , I have create a Lambda function that identifies EBS snapshots that are no longer associated with any active EC2 instance and deletes them to save on storage costs.
 
